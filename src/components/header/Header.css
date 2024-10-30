@@ -1,0 +1,20 @@
+.header{
+    align-items: center;
+    color: #ffff;
+    background-color: red;
+    height: 8vh;
+}
+
+.header__logo{
+    height: 100%;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo h2{
+    margin-right: 0.5rem;
+}
+
+
