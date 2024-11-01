@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@custom-react-hooks/all": "^1.5.1",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",

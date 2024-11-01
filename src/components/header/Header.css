@@ -1,13 +1,17 @@
 .header{
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     color: #ffff;
+    padding-left: 2rem;
+    padding-right: 2rem;
     background-color: red;
     height: 8vh;
+    position: relative;
+    
 }
 
 .header__logo{
-    height: 100%;
-    padding-left: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,4 +21,41 @@
     margin-right: 0.5rem;
 }
 
+.mobile__menu{
+    cursor: pointer;
+}
+
+.mobile__menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #ffff;
+    margin: 8px;
+}
+
+
+
+
+@media screen and (min-width : 600px) {
+    
+    .mobile__menu{
+        display: none;
+    }
+    
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
+
+@media screen and (min-width : 800px) {
+    
+   .header{
+    display: flex;
+    justify-content: space-around;
+   }
+}
 
