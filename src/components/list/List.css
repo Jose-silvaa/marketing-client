@@ -1,0 +1,41 @@
+.nav__list{
+    display: flex;
+}
+
+.nav__list li{
+    letter-spacing: 1px;
+    padding-left: 2rem;
+}
+ 
+.nav__list{
+    position: absolute;
+    top : 8vh;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    flex-direction: column;
+}
+
+.nav__list li{
+    margin-top: 1rem;
+}
+
+@media screen and (min-width : 600px) {
+    
+    .nav__list{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: min-content;
+        height: min-content;
+        padding: 0;
+        top: 0;
+        background-color: red;
+        
+    }
+
+    .nav__list li{
+        margin-top: 0;
+    }
+}
