@@ -1,13 +1,11 @@
 "use client"
 
-
 import "../header/Header.css"
-import { TbTargetArrow } from "react-icons/tb";
 import { useState} from "react";
 import useWindowSize from "../../hooks/useWindowSize"
 import List from "../list/List";
-
-
+import Image from 'next/image'
+import Logo from "../logo/Logo";
 
 const Header = () =>{
 
@@ -23,11 +21,10 @@ const Header = () =>{
     return (
         <header className="header">
             <section className="header__logo">
-                <h2>Flow Target</h2>
-                <TbTargetArrow size={30}/>
+                <Logo color="#ffff"/>
             </section>
             <nav>
-                {(isOpen || innerWidth > 600) && (
+                {(isOpen || width > 600) && (
                   <List items={initialArray} />
                 )}
             </nav>

@@ -5,7 +5,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; 
+}
+
+main{
+    border: 1px solid #4365cb;;
 }
 
 h2{
@@ -55,3 +59,4 @@ button{
     background-color: black;
     color: white;
 }
+
