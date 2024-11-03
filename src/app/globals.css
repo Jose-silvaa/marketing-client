@@ -4,63 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
 :root {
-  --background: #faebeb;
-  --foreground: #171717;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.section__message{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  height: 100vh;
-  display: flex;
-  min-width: 300px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-}
-
-.section__message h2{
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.section__message p{
-  max-width: 400px;
-  font-size: 1.125rem;
-  margin-bottom: 2rem;
-  color: rgb(98, 95, 95);
-}
-
-.button__main{
-  background-color: black;
-  padding: 0.5rem;
-  border-radius: 5px;
-  font-size: 15px;
-  color: #ffffff;
-  width: 200px;
-}
-
-
-@media screen and (min-width : 400px) {
-
-  .section__message{
-    max-width: 700px;
-  }
-  .section__message h2{
-    font-size: 40px;
-  }
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  --background: #4365cb;
+  --foreground: #ffff;
 }

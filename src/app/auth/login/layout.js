@@ -19,9 +19,6 @@ export const metadata = {
           <meta name="author" content={metadata.author} />
         </head>
         <body>
-          <header>
-        
-          </header>
           <main>{children}</main>
         </body>
       </html>

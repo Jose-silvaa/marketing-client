@@ -2,23 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #ffff;
+    /* color: #ffff; */
     padding-left: 2rem;
     padding-right: 2rem;
-    background-color: red;
     height: 8vh;
     position: relative;
+    font-size: 18px;
     
-}
-
-.header__logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.header__logo h2{
-    margin-right: 0.5rem;
 }
 
 .mobile__menu{
