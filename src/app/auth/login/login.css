@@ -2,19 +2,34 @@ body{
     margin: 0;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center; 
+} 
+
+.box{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-main{
-    border: 1px solid #4365cb;;
+.box__login{
+    text-align: left;
 }
 
-h2{
-    font-size: 36px;
+.box__login h2{
+    font-weight: 600;
+    color: #071e3e;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
 }
+
+.box__login p{
+    color: #8691a1;;
+    font-weight: 400;
+}
+
 
 
 button[type="submit"]{
@@ -26,8 +41,6 @@ button[type="submit"]{
 
 .section__login{
     margin-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
     min-width: 300px;
 }
 
@@ -36,27 +49,22 @@ button[type="submit"]{
 }
 
 .form__login input{
-    background-color: #f5f7fa;
+    background-color: #fafbfe;
     margin-top: 0.5rem;
     width: 100%;
     padding: 13px;
     margin-bottom: 10px;
     border-radius: 5px;
     outline: none;
-}
-
-.form__login label{
-    color : #171717
+    border: 1px solid #d7dbe1;
 }
 
 input::placeholder{
-    color: #b2b2b3;
+    color: #8691a1;
 }
 
 button{
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: black;
+    border-radius: 7px;
+    background-color: var(--background);
     color: white;
 }
-
