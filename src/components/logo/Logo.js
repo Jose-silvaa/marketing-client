@@ -4,10 +4,10 @@ import { TbTargetArrow } from "react-icons/tb";
 const Logo = ({color})=>{
    
     return (
-        <>
-         <TbTargetArrow size={40} style={{color : color}}/>
-         <h1 style={{color : color}}>Flow Target</h1>
-        </>
+        <section className="header__logo">
+            <TbTargetArrow size={40} style={{color : color}}/>
+            <h1 style={{color : color}}>Flow Target</h1>
+        </section>
     )
 }
 

@@ -20,7 +20,7 @@ const Header = () =>{
 
     return (
         <header className="header">
-            <section className="header__logo">
+            <section>
                 <Logo color="#ffff"/>
             </section>
             <nav>
