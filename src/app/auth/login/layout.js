@@ -2,7 +2,7 @@ import "../login/login.css"
 
 
 export const metadata = {
-    title: 'Login',
+    title: 'Login - Flow Target',
     description: 'D',
     keywords: 'Next.js, javascript, Login',
     author: 'José Vitor',

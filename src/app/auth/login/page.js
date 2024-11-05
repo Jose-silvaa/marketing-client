@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react";
-import "../login/login.css"
+import "../../auth/auth.css"
 
 export default function Login(){
 
@@ -23,23 +23,23 @@ export default function Login(){
 
     return(
         <div className="box">
-            <section className="box__login">
-                <h2>Log in to your Account</h2>
-                <p>Enter your email and password to acess your account</p>
-            </section>
-            <section className="section__login">
-                    <form className="form__login" onSubmit={handleSubmit}>
-                    <div>
+            <div className="box-form">
+                <h1>Log in to your Account</h1>
+                <p>Enter your email and password to access your account</p>
+                <form onSubmit={handleSubmit}>
+                    <div className="form-group">
+                        <label htmlFor="email">Email</label>
                         <input type="text" id="email" name="email" value={loginData.email} onChange={handleChange} required placeholder="Email"></input>
                     </div>
-                    <div>
+                    <div className="form-group">
+                        <label htmlFor="password">Password</label>
                         <input type="password" id="password" name="password" value={loginData.password} onChange={handleChange} required placeholder="Password"></input>
                     </div>
                     <div>
                         <button type="submit">Log in</button>
                     </div>
                 </form>
-            </section>
+            </div>
         </div>
     )
 }
